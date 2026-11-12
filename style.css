@@ -1,0 +1,212 @@
+/* GOOGLE FONT */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFF8F0;
+  color: #4B2E2B;
+  line-height: 1.7;
+}
+
+/* HEADER */
+header {
+  background-color: #4B2E2B;
+  color: #FFF8F0;
+  text-align: center;
+  padding: 35px 20px;
+}
+
+header h1 {
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+header p {
+  color: #E8C9A8;
+  margin-bottom: 15px;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  color: #FFF8F0;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #D9A679;
+}
+
+/* MAIN CONTENT */
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+section {
+  background-color: #FFFFFF;
+  padding: 30px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(75, 46, 43, 0.08);
+}
+
+section h2 {
+  color: #6B3E32;
+  font-size: 25px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #D9A679;
+  padding-bottom: 8px;
+}
+
+section h3 {
+  color: #8B5E4A;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+section p {
+  margin-bottom: 15px;
+}
+
+section ul,
+section ol {
+  padding-left: 25px;
+  margin-bottom: 15px;
+}
+
+/* GAMBAR PRODUK */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+/* TABEL PRODUK */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th {
+  background-color: #6B3E32;
+  color: #FFFFFF;
+  padding: 12px;
+}
+
+td {
+  padding: 12px;
+  border: 1px solid #E8D8C8;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #FFF1E4;
+}
+
+/* TOMBOL WHATSAPP */
+.tombol-wa {
+  display: inline-block;
+  background-color: #7B4938;
+  color: #FFFFFF;
+  padding: 12px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.tombol-wa:hover {
+  background-color: #4B2E2B;
+}
+
+/* FORM PEMESANAN */
+form {
+  margin-top: 20px;
+}
+
+label {
+  font-weight: 600;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #D9C2AE;
+  border-radius: 7px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 5px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #8B5E4A;
+}
+
+/* TOMBOL KIRIM */
+button {
+  background-color: #6B3E32;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #4B2E2B;
+}
+
+/* FOOTER */
+footer {
+  background-color: #4B2E2B;
+  color: #FFF8F0;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+/* RESPONSIVE UNTUK HP */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 30px;
+  }
+
+  nav a {
+    margin: 0 5px;
+    font-size: 13px;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  section h2 {
+    font-size: 21px;
+  }
+
+  table {
+    font-size: 13px;
+  }
+
+  th,
+  td {
+    padding: 8px 5px;
+  }
+}
